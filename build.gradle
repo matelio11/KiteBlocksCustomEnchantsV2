@@ -1,0 +1,13 @@
+plugins { id 'java' }
+group = 'gg.kiteblocks'
+version = '2.0.0'
+repositories {
+  maven { url = uri('https://repo.papermc.io/repository/maven-public/') }
+  mavenCentral()
+}
+dependencies {
+  compileOnly 'io.papermc.paper:paper-api:26.2.build.134-stable'
+  compileOnly files('libs/MultiCurrency-API-1.1.0.jar')
+}
+java { toolchain { languageVersion = JavaLanguageVersion.of(25) } }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

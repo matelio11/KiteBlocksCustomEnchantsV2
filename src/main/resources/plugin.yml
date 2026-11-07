@@ -1,0 +1,24 @@
+name: KiteBlocksCustomEnchants
+version: '2.0.0'
+main: gg.kiteblocks.enchants.CustomEnchantsPlugin
+api-version: '1.21'
+author: KiteBlocks
+softdepend: [MultiCurrency]
+commands:
+  enchants:
+    description: Browse enchantments
+    permission: kiteblocks.enchants.view
+  enchanter:
+    description: Purchase randomized enchantment books with MultiCurrency XP
+    aliases: [enchshop]
+    permission: kiteblocks.enchants.shop
+  kbenchant:
+    description: Admin testing and item tools
+    permission: kiteblocks.enchants.admin
+permissions:
+  kiteblocks.enchants.view:
+    default: true
+  kiteblocks.enchants.shop:
+    default: true
+  kiteblocks.enchants.admin:
+    default: op

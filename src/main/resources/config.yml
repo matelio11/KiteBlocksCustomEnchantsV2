@@ -1,0 +1,23 @@
+# MultiCurrency 'xp' balance; independent of vanilla XP.
+shop:
+  basic-price: 5000
+  advanced-price: 20000
+  extreme-price: 50000
+  white-scroll-price: 25000
+  black-scroll-price: 25000
+# Percentage chance per enchant level, capped at 100.
+chances:
+  decapitation: 5
+  wellfed: 8
+  trickster: 3
+  summoner: 10
+  scorch: 7
+  venom: 7
+  nightblade: 5
+  blackout: 5
+  catapult: 5
+  freeze: 5
+  blood_rage: 5
+  multikill: 5
+  auto_smelt: 10
+  gatherer: 5
